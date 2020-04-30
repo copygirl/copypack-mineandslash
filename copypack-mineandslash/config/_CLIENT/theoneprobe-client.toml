@@ -2,7 +2,7 @@
 showTankSetting = "EXTENDED"
 #The distance to the top side of the screen. Use -1 if you don't want to set this
 #Range: -1 ~ 10000
-boxTopY = 5
+boxTopY = 4
 #The distance to the right side of the screen. Use -1 if you don't want to set this
 #Range: -1 ~ 10000
 boxRightX = -1
@@ -27,7 +27,7 @@ showBreakProgress = 1
 showModName = "NORMAL"
 #The distance to the left side of the screen. Use -1 if you don't want to set this
 #Range: -1 ~ 10000
-boxLeftX = 5
+boxLeftX = -1
 #The amount of milliseconds to wait before updating probe information from the server
 #Range: 10 ~ 100000
 timeout = 300
@@ -68,7 +68,7 @@ boxFillColor = "55006699"
 showChestContentsDetailed = "EXTENDED"
 #The scale of the tooltips, 1 is default, 2 is smaller
 #Range: 0.4 ~ 5.0
-tooltipScale = 1.0
+tooltipScale = 1.5
 #Show mob health (0 = not, 1 = always, 2 = sneak)
 showMobHealth = "NORMAL"
 #Show mob potion effects (0 = not, 1 = always, 2 = sneak)
@@ -104,4 +104,3 @@ showMobGrowth = "NORMAL"
 	Ok = "green"
 	#Text style. Use a comma delimited list with colors like: 'red', 'green', 'blue', ... or style codes like 'underline', 'bold', 'italic', 'strikethrough', ..."
 	Name = "white"
-
