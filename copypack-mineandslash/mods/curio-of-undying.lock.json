@@ -1,0 +1,12 @@
+{
+    "type": "voodoo.data.lock.LockEntry.Curse",
+    "common": {
+        "dependencies": {
+            "REQUIRED": [
+                "curios"
+            ]
+        }
+    },
+    "projectID": 316873,
+    "fileID": 2880119
+}

@@ -1,0 +1,12 @@
+{
+    "type": "voodoo.data.lock.LockEntry.Curse",
+    "common": {
+        "dependencies": {
+            "REQUIRED": [
+                "mine-and-slash-reloaded"
+            ]
+        }
+    },
+    "projectID": 351364,
+    "fileID": 2910812
+}

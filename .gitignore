@@ -1,0 +1,14 @@
+/.gradle/
+/.idea/
+/build/
+/logs/
+/out/
+/reports/
+
+.directory
+.DS_Store
+local.properties
+Thumbs.db
+
+/src/
+/update_modpack.sh

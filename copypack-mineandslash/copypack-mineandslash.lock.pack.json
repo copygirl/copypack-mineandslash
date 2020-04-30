@@ -1,0 +1,19 @@
+{
+    "id": "copypack-mineandslash",
+    "mcVersion": "1.14.4",
+    "modloader": {
+        "type": "Modloader.Forge",
+        "mcVersion": "1.14.4",
+        "forgeVersion": "28.2.5"
+    },
+    "title": "copypack-mineandslash",
+    "version": "0.1.0",
+    "authors": [
+        "copygirl"
+    ],
+    "packOptions": {
+        "multimcOptions": {
+            "selfupdateUrl": "https://meowface.org/copygirl/MineAndSlash/copypack-mineandslash.json"
+        }
+    }
+}

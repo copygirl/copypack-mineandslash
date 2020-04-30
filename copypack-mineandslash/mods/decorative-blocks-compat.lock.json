@@ -1,0 +1,12 @@
+{
+    "type": "voodoo.data.lock.LockEntry.Curse",
+    "common": {
+        "dependencies": {
+            "REQUIRED": [
+                "decorative-blocks"
+            ]
+        }
+    },
+    "projectID": 365578,
+    "fileID": 2893843
+}

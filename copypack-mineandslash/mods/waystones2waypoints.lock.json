@@ -1,0 +1,13 @@
+{
+    "type": "voodoo.data.lock.LockEntry.Curse",
+    "common": {
+        "dependencies": {
+            "REQUIRED": [
+                "waystones",
+                "xaeros-minimap"
+            ]
+        }
+    },
+    "projectID": 316632,
+    "fileID": 2885957
+}

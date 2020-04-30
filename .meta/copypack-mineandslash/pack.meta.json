@@ -1,0 +1,10 @@
+{
+    "id": "copypack-mineandslash",
+    "title": "copypack-mineandslash",
+    "version": "0.1.0",
+    "minecraft.version": "1.14.4",
+    "forge.version": "28.2.5",
+    "authors": "copygirl",
+    "icon.src": "icon.png",
+    "icon.html": "<img src=\"icon.png\" alt=\"icon\" style=\"max-height: 128px;\"/>"
+}
