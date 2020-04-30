@@ -1,6 +1,6 @@
 title   = "copypack-mineandslash"
 authors = listOf("copygirl")
-version = "0.2.0"
+version = "0.2.1"
 icon    = rootFolder.resolve("icon.png")
 
 mcVersion = "1.14.4"
@@ -9,6 +9,12 @@ modloader { forge(Forge.mc1_14_4_latest) }
 pack {
   multimc {
     selfupdateUrl = "https://meowface.org/copygirl/MineAndSlash/copypack-mineandslash.json"
+  }
+  experimental {
+    userFiles = FnPatternList(include = listOf(
+      "options.txt", "servers.dat",
+      "config/xaerominimap.txt", "config/xaeroworldmap.txt"
+    ))
   }
 }
 

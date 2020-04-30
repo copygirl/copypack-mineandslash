@@ -7,13 +7,23 @@
         "forgeVersion": "28.2.5"
     },
     "title": "copypack-mineandslash",
-    "version": "0.2.0",
+    "version": "0.2.1",
     "authors": [
         "copygirl"
     ],
     "packOptions": {
         "multimcOptions": {
             "selfupdateUrl": "https://meowface.org/copygirl/MineAndSlash/copypack-mineandslash.json"
+        },
+        "experimentalOptions": {
+            "userFiles": {
+                "include": [
+                    "options.txt",
+                    "servers.dat",
+                    "config/xaerominimap.txt",
+                    "config/xaeroworldmap.txt"
+                ]
+            }
         }
     }
 }
