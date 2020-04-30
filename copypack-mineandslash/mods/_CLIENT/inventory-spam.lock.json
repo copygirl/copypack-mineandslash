@@ -1,0 +1,11 @@
+{
+    "type": "voodoo.data.lock.LockEntry.Curse",
+    "common": {
+        "side": "CLIENT",
+        "description": "Displays items added and removed from your player inventory.",
+        "optionalData": {
+        }
+    },
+    "projectID": 266450,
+    "fileID": 2833441
+}

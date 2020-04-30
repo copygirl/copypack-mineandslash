@@ -1,6 +1,6 @@
 title   = "copypack-mineandslash"
 authors = listOf("copygirl")
-version = "0.1.0"
+version = "0.2.0"
 icon    = rootFolder.resolve("icon.png")
 
 mcVersion = "1.14.4"
@@ -18,14 +18,11 @@ root<Curse> {
     +Mod.appleskin
     +Mod.attributefix
     +Mod.bedspreads
-    +Mod.betterAdvancements
-    +Mod.blur
     +Mod.botania
     +Mod.bountifulbaubles
     +Mod.carryOn
     +Mod.charm
     +Mod.compactOres
-    +Mod.controlling
     +Mod.cookingForBlockheads
     +Mod.corailWoodcutter
     +Mod.cosmeticArmorReworked
@@ -44,21 +41,16 @@ root<Curse> {
     +Mod.fastfurnace
     +Mod.fastLeafDecay
     +Mod.fastworkbench
-    +Mod.harvest
     +Mod.immersivePortalsForForge
-    +Mod.inventorySpam
-    +Mod.itemScroller
     +Mod.jei
     +Mod.largeOreDeposits
     +Mod.mineAndSlashAutoCompatibility
     +Mod.mineAndSlashReloaded
     +Mod.mixinbootstrap
-    +Mod.morpheus
     +Mod.mrcrayfishFurnitureMod
     +Mod.mrcrayfishsVehicleMod
     +Mod.naturesAura
     +Mod.noIncreasingRepairCost
-    +Mod.noRecipeBook
     +Mod.oreExcavation
     +Mod.overpoweredMending
     +Mod.quark
@@ -70,7 +62,6 @@ root<Curse> {
     +Mod.strange
     +Mod.swingthroughgrass
     +Mod.theOneProbe
-    +Mod.toastControl
     +Mod.trampleStopper
     +Mod.unenchanting
     +Mod.upgradeAquatic
@@ -78,8 +69,32 @@ root<Curse> {
     +Mod.valhelsiaStructures
     +Mod.wallJump
     +Mod.waystones
-    +Mod.waystones2waypoints
-    +Mod.xaerosMinimap
-    +Mod.xaerosWorldMap
+
+    // Placebo is a dependency of FastFurnace, FastWorkbench and Toast Control.
+    // This is explicitly added because it likes to switch from being
+    // required on both sides to only being required on the client. :/
+    +Mod.placebo
+
+    // Client-side recommended
+    group {
+      side = Side.CLIENT
+      optional { selected = true }
+    }.list {
+      +Mod.controlling { description = "Allows searching for keybinds in the Controls menu." }
+      +Mod.noRecipeBook { description = "Removes the Vanilla recipe button from your inventory." }
+      +Mod.toastControl { description = "Disables tutorial and recipe 'toasts' from appearing." }
+      +Mod.xaerosMinimap { description = "Minimap in Minecraft's style with waypoints." }
+      +Mod.xaerosWorldMap { description = "World map that integrates well with Xaero's Minimap." }
+    }
+
+    // Client-side optional
+    group {
+      side = Side.CLIENT
+      optional { selected = false }
+    }.list {
+      +Mod.blur { description = "Blurs out the world in the background when accessing inventories." }
+      +Mod.inventorySpam { description = "Displays items added and removed from your player inventory." }
+      +Mod.itemScroller { description = "Move items with your scroll wheel and other shortcuts." }
+    }
   }
 }

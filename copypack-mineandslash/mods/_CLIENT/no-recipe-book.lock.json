@@ -1,0 +1,12 @@
+{
+    "type": "voodoo.data.lock.LockEntry.Curse",
+    "common": {
+        "side": "CLIENT",
+        "description": "Removes the Vanilla recipe button from your inventory.",
+        "optionalData": {
+            "selected": true
+        }
+    },
+    "projectID": 284904,
+    "fileID": 2824391
+}

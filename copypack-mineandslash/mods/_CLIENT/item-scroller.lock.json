@@ -1,6 +1,10 @@
 {
     "type": "voodoo.data.lock.LockEntry.Curse",
     "common": {
+        "side": "CLIENT",
+        "description": "Move items with your scroll wheel and other shortcuts.",
+        "optionalData": {
+        },
         "dependencies": {
             "REQUIRED": [
                 "malilib"

@@ -1,0 +1,12 @@
+{
+    "type": "voodoo.data.lock.LockEntry.Curse",
+    "common": {
+        "side": "CLIENT",
+        "description": "World map that integrates well with Xaero's Minimap.",
+        "optionalData": {
+            "selected": true
+        }
+    },
+    "projectID": 317780,
+    "fileID": 2924386
+}

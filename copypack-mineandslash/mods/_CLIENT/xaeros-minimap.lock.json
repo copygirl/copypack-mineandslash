@@ -1,0 +1,12 @@
+{
+    "type": "voodoo.data.lock.LockEntry.Curse",
+    "common": {
+        "side": "CLIENT",
+        "description": "Minimap in Minecraft's style with waypoints.",
+        "optionalData": {
+            "selected": true
+        }
+    },
+    "projectID": 263420,
+    "fileID": 2943389
+}

@@ -34,14 +34,9 @@ voodoo {
         pack().server()
         pack().voodoo()
         pack().multimcVoodoo()
-        pack().multimcFat()
+        // pack().multimcFat()
     }
 
     generateForge("Forge", "1.14.4")
     generateCurseforgeMods("Mod", "1.14", "1.14.1", "1.14.2", "1.14.3", "1.14.4")
-
-    // generateFabric("Fabric", stable = true)
-    // generateCurseforgeMods("Mod", "1.15", "1.15.1", "1.15.2", categories = listOf("Fabric"))
-
-    // generateCurseforgeTexturepacks("TexturePack", "1.15", "1.15.1", "1.15.2")
 }
